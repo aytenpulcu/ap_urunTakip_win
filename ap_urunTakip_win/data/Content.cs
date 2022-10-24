@@ -18,8 +18,8 @@ namespace ap_urunTakip_win.data
     {
         static IFirebaseConfig fc = new FirebaseConfig()
         {
-            AuthSecret = "9U4yrWplBMZIIJzl1MFigPB1ugrbO5pzav9htA2P",
-            BasePath = "https://uruntakipdb-467fc-default-rtdb.firebaseio.com/"
+            AuthSecret = "typeYourDbSecretKey",
+            BasePath = "https://yourDbAdress.firebaseio.com/"
         };
 
         static IFirebaseClient client = new FirebaseClient(config: fc);
